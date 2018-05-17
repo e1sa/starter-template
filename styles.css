@@ -4,6 +4,10 @@ body{
   font-size: 20px;
   font-weight: normal;
 }
+.projecttitle{
+  background:#9CADCE;
+}
+
 section{
   max-width: 450px;
   margin: 50px auto;
@@ -25,11 +29,11 @@ div{
 }
 .from-me {
   position: relative;
-  padding: 10px 20px;
+  padding: 5px 15px;
   color: white;
-  background: #0b93f6;
-  border-radius: 25px;
-  float: right;
+  background:#56CCF2;
+  border-radius: 20px;
+  float: left;
 
   &:before {
     content: "";
@@ -58,11 +62,11 @@ div{
 }
 .from-them {
   position: relative;
-  padding: 10px 20px;
-  background: #e5e5ea;
-  border-radius: 25px;
+  padding: 5px 15px;
+  background:#BB6BD9;
+  border-radius: 20px;
   color: black;
-  float: left;
+  float: right;
 
   &:before {
     content: "";
