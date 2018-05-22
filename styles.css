@@ -30,6 +30,7 @@ div{
 .from-me {
   position: relative;
   padding: 5px 15px;
+  margin: 5px 15px;
   color: white;
   background:#56CCF2;
   border-radius: 20px;
@@ -63,6 +64,7 @@ div{
 .from-them {
   position: relative;
   padding: 5px 15px;
+  margin: 5px 15px;
   background:#BB6BD9;
   border-radius: 20px;
   color: black;
@@ -92,4 +94,3 @@ div{
     border-bottom-right-radius: 10px;
     -webkit-transform: translate(-30px, -2px);
   }
-}
