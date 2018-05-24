@@ -1,14 +1,14 @@
-body{
+body {
   font-family:
   "helvetica neue";
   font-size: 20px;
   font-weight: normal;
 }
-.projecttitle{
+.projecttitle {
   background:#9CADCE;
 }
 
-section{
+section {
   max-width: 450px;
   margin: 50px auto;
 
@@ -23,8 +23,9 @@ div{
        clear: both;
      }
     }
-  }
-  .clear {
+}
+
+.clear {
   clear: both;
 }
 .from-me {
@@ -65,7 +66,7 @@ div{
   position: relative;
   padding: 5px 15px;
   margin: 5px 15px;
-  background:#BB6BD9;
+  background:#D4AFB9;
   border-radius: 20px;
   color: black;
   float: right;
@@ -94,3 +95,14 @@ div{
     border-bottom-right-radius: 10px;
     -webkit-transform: translate(-30px, -2px);
   }
+}
+
+.twitter3 {
+  width:35px;
+  height: 35px;
+}
+.custom-border {
+  border-style: solid;
+  border-color: #56CCF2;
+  border-width: 5px;
+}
