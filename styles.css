@@ -34,7 +34,7 @@ div{
   margin: 5px 15px;
   color: white;
   background:#56CCF2;
-  border-radius: 20px;
+  border-radius: 50px;
   float: left;
 
   &:before {
@@ -66,8 +66,8 @@ div{
   position: relative;
   padding: 5px 15px;
   margin: 5px 15px;
-  background:#D4AFB9;
-  border-radius: 20px;
+  background:#c1839f;
+  border-radius: 100px;
   color: black;
   float: right;
 
@@ -98,11 +98,26 @@ div{
 }
 
 .twitter3 {
+  width:40px;
+  height: 40px;
+}
+.facebook {
   width:35px;
   height: 35px;
 }
 .custom-border {
   border-style: solid;
-  border-color: #56CCF2;
+  border-color: #f7d488;
   border-width: 5px;
 }
+
+.custom-border1 {
+    border-style: solid;
+    border-color: #c7ccdb;
+    border-width: 5px;
+  }
+  .custom-border2 {
+    border-style: solid;
+    border-color: #b7999c;
+    border-width: 5px;
+  }
