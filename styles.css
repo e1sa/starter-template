@@ -1,8 +1,16 @@
+div{
+  border:1px solid black;
+}
 body {
   font-family:
   "helvetica neue";
   font-size: 20px;
   font-weight: normal;
+
+}
+
+.tall{
+  height: 100vh;
 }
 .projecttitle {
   background:#9CADCE;
@@ -98,7 +106,7 @@ div{
 }
 
 .twitter3 {
-  width:40px;
+  width:50px;
   height: 40px;
 }
 .facebook {
