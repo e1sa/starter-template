@@ -1,6 +1,6 @@
-div{
+/* div{
   border:1px solid black;
-}
+} */
 body {
   font-family:
   "helvetica neue";
@@ -106,25 +106,30 @@ div{
 }
 
 .twitter3 {
-  width:50px;
-  height: 40px;
+  max-width: 40px;
+  /* height: 40px; */
+}
+.Star {
+  max-width: 30px;
 }
 .facebook {
-  width:35px;
-  height: 35px;
+  max-width: 35px;
 }
 .custom-border {
+  background: #f7d488;
   border-style: solid;
   border-color: #f7d488;
   border-width: 5px;
 }
 
 .custom-border1 {
+    background:#c7ccdb;
     border-style: solid;
     border-color: #c7ccdb;
     border-width: 5px;
   }
   .custom-border2 {
+    background:#b7999c;
     border-style: solid;
     border-color: #b7999c;
     border-width: 5px;
