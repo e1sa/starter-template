@@ -1,11 +1,12 @@
 var likes = 0;
-var fancy = 1;
 var icon = document.getElementById('icon');
 var counter = document.getElementById('counter');
 var star = document.getElementById('star');
 var oppose = document.getElementById('oppose');
 var views = 0;
 var prospect = 1;
+var icon1 = document.getElementById('icon1');
+var counter1 = document.getElementById('counter1');
 
 function updateLikes() {
   if (icon.dataset.like === "false") {
@@ -33,7 +34,7 @@ function updatestar() {
   } else {
     views = views - 1;
     star.src = "empty.png";
-    star.dataset.like = "false";
+    icon.dataset.like = "false";
     oppose.innerHTML = prospect;
 
   }
