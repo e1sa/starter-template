@@ -1,4 +1,5 @@
 var likes = 0;
+var fancy = 1;
 var icon = document.getElementById('icon');
 var counter = document.getElementById('counter');
 var star = document.getElementById('star');
@@ -14,6 +15,7 @@ function updateLikes() {
     icon.src = "fill.png";
     icon.dataset.like = "true";
     counter.innerHTML = likes;
+    console.log(likes);
 
   } else {
     likes = likes - 1;
@@ -34,14 +36,25 @@ function updatestar() {
   } else {
     views = views - 1;
     star.src = "empty.png";
-<<<<<<< HEAD
     star.dataset.like = "false";
-    oppose.innerHTML = ;
-=======
-    icon.dataset.like = "false";
-    oppose.innerHTML = prospect;
->>>>>>> d3f4e25ff0b90f41c904d1f48e4aa5ed58f9b5c9
+    oppose.innerHTML = views;
 
   }
 
 }
+/*function updatetTime(){
+  if(icon1.dataset.like === "false"){
+    likes = likes + 1;
+    icon1.src="fill.png";
+    icon.dataset.like = "true";
+    counter1.innerHTML = views;
+  } else{
+    likes = likes + 1;
+    icon1.src = "fill.png";
+    icon.dataset.like = "false";
+    counter1.innerHTML =views;
+  }
+
+
+
+}*/
