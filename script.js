@@ -18,7 +18,7 @@ function updateLikes() {
     likes = likes - 1;
     icon.src = "empty.png";
     icon.dataset.like = "false";
-    counter.innerHTML = fancy;
+    counter.innerHTML = likes;
 
   }
 
@@ -34,7 +34,7 @@ function updatestar() {
     views = views - 1;
     star.src = "empty.png";
     star.dataset.like = "false";
-    oppose.innerHTML = prospect;
+    oppose.innerHTML = ;
 
   }
 
